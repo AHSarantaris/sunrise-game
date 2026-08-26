@@ -11,6 +11,7 @@ const gravitationalAcceleration = 0.2;
 let redVal, greenVal; // Variables for background color
 let userLost, userWon; // Game state variables
 let sun; // Sun object variable
+initializeGameVariables()
 
 /**
  * Sets or resets the game variables
